@@ -27,20 +27,21 @@ The training and validation accuracy of classifying the book covers directly aft
 The training and validation loss of classifying the book covers directly after using data augmentation, dropout, and checkpoints:  
 ![image](https://user-images.githubusercontent.com/98332987/208316485-d6b755b0-ff25-45f4-98be-97990ed2cf72.png)
 
-
-
-
+The result of RNN model:  
+Test loss: 3.260361671447754  
+Test accuracy: 0.26811298727989197  
+Top 5 categorical accuracy: 0.5970118641853333  
 ![image](https://user-images.githubusercontent.com/98332987/208316744-7c0d82d3-194e-471c-8d9c-60069032838f.png)
 ![image](https://user-images.githubusercontent.com/98332987/208316749-8a904b5e-9113-4446-9b66-62fef6858c1e.png)  
 
-
+The result of LSTM model:  
 Test loss: 3.103273868560791  
 Test accuracy: 0.2738436460494995  
 Top 5 categorical accuracy: 0.607859194278717  
 ![image](https://user-images.githubusercontent.com/98332987/208316770-b482c407-4c37-4ae0-af37-17bd681f54d6.png)
 ![image](https://user-images.githubusercontent.com/98332987/208316775-d9cdbb89-2d92-4c66-9b88-2d838c977081.png)
 
-
+The result of GRU model:  
 Test loss: 3.1028494834899902  
 Test accuracy: 0.2771182954311371  
 Top 5 categorical accuracy: 0.6002865433692932  
