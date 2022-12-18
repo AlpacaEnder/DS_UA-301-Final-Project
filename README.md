@@ -15,8 +15,23 @@ kaggle.json: Used to be chose when import the dataset from kaggle
 main_dataset.csv: contains all meta information for each book in the dataset, provided paths to each image
 
 # Results
+The training and validation accuracy of classifying the book covers directly:
+![image](https://user-images.githubusercontent.com/98332987/208316443-d4c295ba-6da8-427c-bc69-5ff64888b0ab.png)
 
+The training and validation loss of classifying the book covers directly:
 ![image](https://user-images.githubusercontent.com/98332987/208316432-8dd1de37-244e-43a1-9e88-c4b69dae2be1.png)
+
+The training and validation accuracy of classifying the book covers directly after using data augmentation, dropout, and checkpoints:
+![image](https://user-images.githubusercontent.com/98332987/208316477-b350270d-c470-4bea-8c7c-74ec0c723708.png)
+
+The training and validation loss of classifying the book covers directly after using data augmentation, dropout, and checkpoints:
+![image](https://user-images.githubusercontent.com/98332987/208316485-d6b755b0-ff25-45f4-98be-97990ed2cf72.png)
+
+
+
+
+
+
 
 
 # Conclusion
