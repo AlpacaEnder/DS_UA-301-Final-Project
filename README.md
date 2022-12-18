@@ -27,30 +27,40 @@ The training and validation accuracy of classifying the book covers directly aft
 The training and validation loss of classifying the book covers directly after using data augmentation, dropout, and checkpoints:  
 ![image](https://user-images.githubusercontent.com/98332987/208316485-d6b755b0-ff25-45f4-98be-97990ed2cf72.png)
 
-The result of RNN model:  
-Test loss: 3.260361671447754  
-Test accuracy: 0.26811298727989197  
-Top 5 categorical accuracy: 0.5970118641853333  
+The result of RNN model using titles in the dataset:  
+Test loss: 3.26  
+Test accuracy: 0.27  
+Top 5 categorical accuracy: 0.60  
 ![image](https://user-images.githubusercontent.com/98332987/208316744-7c0d82d3-194e-471c-8d9c-60069032838f.png)
 ![image](https://user-images.githubusercontent.com/98332987/208316749-8a904b5e-9113-4446-9b66-62fef6858c1e.png)  
 
-The result of LSTM model:  
-Test loss: 3.103273868560791  
-Test accuracy: 0.2738436460494995  
-Top 5 categorical accuracy: 0.607859194278717  
+The result of LSTM model using titles in the dataset:    
+Test loss: 3.10  
+Test accuracy: 0.27  
+Top 5 categorical accuracy: 0.61  
 ![image](https://user-images.githubusercontent.com/98332987/208316770-b482c407-4c37-4ae0-af37-17bd681f54d6.png)
 ![image](https://user-images.githubusercontent.com/98332987/208316775-d9cdbb89-2d92-4c66-9b88-2d838c977081.png)
 
-The result of GRU model:  
-Test loss: 3.1028494834899902  
-Test accuracy: 0.2771182954311371  
-Top 5 categorical accuracy: 0.6002865433692932  
+The result of GRU model using titles in the dataset:    
+Test loss: 3.10  
+Test accuracy: 0.28  
+Top 5 categorical accuracy: 0.60  
 ![image](https://user-images.githubusercontent.com/98332987/208316781-c94d24f2-e0f3-44f2-b44d-3b012cd9b9fd.png)
 ![image](https://user-images.githubusercontent.com/98332987/208316784-2ca987be-89e6-4736-9b5f-6a6f255d7475.png)
 
+The result of RNN model using titles gained by python-tesseract:   
+Test loss: 4.15  
+Test accuracy: 0.03  
+Top 5 categorical accuracy: 0.26  
+![image](https://user-images.githubusercontent.com/98332987/208317279-459f4f1f-4531-46bb-a89a-627940efaa93.png)
+![image](https://user-images.githubusercontent.com/98332987/208317280-7881edf9-adb2-4d24-9457-f3aa00f3496e.png)
 
-
-
+The result of RNN model using a part of the titles in the dataset which only contains 10 classes:    
+Test loss: 2.11    
+Test accuracy: 0.51  
+Top 5 categorical accuracy: 0.87  
+![image](https://user-images.githubusercontent.com/98332987/208317328-d743eaa1-639e-49f5-871e-9d9fe909ac98.png)
+![image](https://user-images.githubusercontent.com/98332987/208317336-e640d542-9e1e-4583-82a1-b3ea0437c207.png)
 
 # Conclusion
 
