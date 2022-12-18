@@ -63,6 +63,22 @@ Top 5 categorical accuracy: 0.87
 ![image](https://user-images.githubusercontent.com/98332987/208317336-e640d542-9e1e-4583-82a1-b3ea0437c207.png)
 
 # Conclusion
+The accuracy of classifying the image of book covers directly is quite low. And both the accuracy and loss doesn't improve much after the training.  
+One possible reasons is that the categories of the books in the dataset are too much (33).    
+And another reason is that unlike common dataset we use, such has cifar10 which contains images pictured in reality, the book covers in this datset have high diversity even they are in the same category.
 
+The accuracy of classifying the titles is acceptable but has large space for improvement.  
+The results of RNN, LSTM, GRU models are very similar, having test accuracy as 0.27 and top 5 categorical accuracy as 0.60, which is the acccuracy that the target is in the top 5 predictions instead of one.
+All the training models contain dropout and L2 regularization to prevent overfitting.  
+After decrease the number of categories in the dataset to 10, we get the test accuracy of 0.51 and top 5 categorical accuracy of 0.87, meaning that the number of classes does influence the efficiency of improving accuracy.  
 
+The accuracy of classifying the letters gained through python-tesseract is horrible. The main reason is that this method has bad performance on recognizing stylish characters in a colorful image. And since it cannot tell which part of the letters is the title, the test accuracy is extremely low.
 
+Potential solutions and improvement:  
+-Better models, more epoches, cycling learning rate schedules.
+-Better character recognition method to increase the success rate of recognizing the letters in the cover.
+-A method to distinguish the title from other words in the book cover(author, comments, etc.)
+-Find other elements rather than titles that are more representative of the categories of the books.
+
+Future possible development:
+Automatically create a book cover after inputting the title, author, and the category.
