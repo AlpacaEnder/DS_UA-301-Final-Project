@@ -10,11 +10,13 @@ Kaggle dataset: https://www.kaggle.com/datasets/sjorts/book-covers-and-their-pro
 
 # Repository
 
-
-
+DS_UA_301_Final_Project_Frank_Fan.ipynb: The main file
+kaggle.json: Used to be chose when import the dataset from kaggle
+main_dataset.csv: contains all meta information for each book in the dataset, provided paths to each image
 
 # Results
 
+![image](https://user-images.githubusercontent.com/98332987/208316432-8dd1de37-244e-43a1-9e88-c4b69dae2be1.png)
 
 
 # Conclusion
