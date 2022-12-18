@@ -75,7 +75,7 @@ After decrease the number of categories in the dataset to 10, we get the test ac
 The accuracy of classifying the letters gained through python-tesseract is horrible. The main reason is that this method has bad performance on recognizing stylish characters in a colorful image. And since it cannot tell which part of the letters is the title, the test accuracy is extremely low.
 
 Potential solutions and improvement:   
--Better models, more epoches, cycling learning rate schedules.   
+-Better models, more epochs, cycling learning rate schedules.   
 -Better character recognition method to increase the success rate of recognizing the letters in the cover.   
 -A method to distinguish the title from other words in the book cover(author, comments, etc.)   
 -Find other elements rather than titles that are more representative of the categories of the books.  
