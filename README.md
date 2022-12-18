@@ -10,9 +10,9 @@ Kaggle dataset: https://www.kaggle.com/datasets/sjorts/book-covers-and-their-pro
 
 # Repository
 
-DS_UA_301_Final_Project_Frank_Fan.ipynb: The main file
-kaggle.json: Used to be chose when import the dataset from kaggle
-main_dataset.csv: contains all meta information for each book in the dataset, provided paths to each image
+DS_UA_301_Final_Project_Frank_Fan.ipynb: The main file   
+kaggle.json: Used to be chose when import the dataset from kaggle   
+main_dataset.csv: contains all meta information for each book in the dataset, provided paths to each image  
 
 # Results
 The training and validation accuracy of classifying the book covers directly:  
@@ -30,6 +30,8 @@ The training and validation loss of classifying the book covers directly after u
 
 
 
+![image](https://user-images.githubusercontent.com/98332987/208316744-7c0d82d3-194e-471c-8d9c-60069032838f.png)
+![image](https://user-images.githubusercontent.com/98332987/208316749-8a904b5e-9113-4446-9b66-62fef6858c1e.png)
 
 
 
