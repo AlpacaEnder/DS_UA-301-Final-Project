@@ -65,7 +65,7 @@ Top 5 categorical accuracy: 0.87
 # Conclusion
 The accuracy of classifying the image of book covers directly is quite low. And both the accuracy and loss doesn't improve much after the training.  
 One possible reasons is that the categories of the books in the dataset are too much (33).    
-And another reason is that unlike common dataset we use, such has cifar10 which contains images pictured in reality, the book covers in this datset have high diversity even they are in the same category.
+And another reason is that unlike common dataset we use, such has cifar10 which contains images pictured in reality, the book covers in this dataset have high diversity even they are in the same category.
 
 The accuracy of classifying the titles is acceptable but has large space for improvement.  
 The results of RNN, LSTM, GRU models are very similar, having test accuracy as 0.27 and top 5 categorical accuracy as 0.60, which is the acccuracy that the target is in the top 5 predictions instead of one.
